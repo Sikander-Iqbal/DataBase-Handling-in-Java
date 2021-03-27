@@ -1,7 +1,7 @@
 /*
-* DataBase Functionalities
+* DataBase Functionalities with Java
 * Developer: Muhammad Sikander Iqbal
-* Contact: taimoorahamed95959@gmail.com , www.fiverr.com/phoenixhub947
+* Contact: taimoorahamed95959@gmail.com | www.fiverr.com/phoenixhub947 | Phone no: +923346145098 |
 * CopyRight @ Phoenix Hub You are not allowed to use any section of this program. This code is just for learning purpose.
 * Version: 1.0.1
 * Updated on 27-02-2021 @ 10:22 PM PKT
@@ -21,7 +21,7 @@ import java.util.Date;
 /*--------------------------------------------------------------------------------------*/
 public class DB_Functionalities {
 
-    static final String DB_URL = "jdbc:mysql://localhost/sikander";
+    static final String DB_URL = "jdbc:mysql://localhost/your_database_name";
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
 
     static final String username = "root";
