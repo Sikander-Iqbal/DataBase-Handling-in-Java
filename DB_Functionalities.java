@@ -170,18 +170,18 @@ public class DB_Functionalities {
         Thread.sleep(3000); //delay for 3 seconds
         Class.forName(JDBC_DRIVER);
         System.out.println("DataBase Registered!\n");
-        Thread.sleep(1000); //delay for 2 seconds
+        Thread.sleep(1000); //delay for 1 seconds
 
         System.out.println("Attempting to connect to the server.....\n");
         connection = (Connection) DriverManager.getConnection(DB_URL, username, password);
         System.out.println("Connected to the Server!\n");
-        Thread.sleep(1000); //delay for 2 seconds
+        Thread.sleep(1000); //delay for 1 seconds
 
         System.out.println("Making statement.....\n");
-        Thread.sleep(2000); //delay for 3 seconds
+        Thread.sleep(2000); //delay for 2 seconds
         statement = (Statement) connection.createStatement();
         System.out.println("Statement Created!\n");
-        Thread.sleep(1000); //delay for 2 seconds
+        Thread.sleep(1000); //delay for 1 seconds
 
         System.out.println("Fetching the required queries.....");
         Thread.sleep(2000); //delay for 2 seconds
